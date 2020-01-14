@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动任务" />
+
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止任务" />
+
+    <Button
+        android:id="@+id/bind_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定任务" />
+
+    <Button
+        android:id="@+id/unbind_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑任务" />
+
+    <Button
+        android:id="@+id/timing_task_service_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动定时任务" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止定定时任务"
+        android:id="@+id/timing_task_service_stop_btn"/>
+    <Button
+        android:id="@+id/network_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络编程测试"
+        />
+</LinearLayout>
