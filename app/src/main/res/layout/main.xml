@@ -35,14 +35,38 @@
         android:text="启动定时任务" />
 
     <Button
+        android:id="@+id/timing_task_service_stop_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="停止定定时任务"
-        android:id="@+id/timing_task_service_stop_btn"/>
+        android:text="停止定定时任务" />
+
     <Button
         android:id="@+id/network_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="网络编程测试"
-        />
+        android:text="网络编程测试" />
+
+    <Button
+        android:id="@+id/pull_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xml pull解析测试" />
+
+    <Button
+        android:id="@+id/sax_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xml sax解析测试" />
+
+    <Button
+        android:id="@+id/json_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json测试" />
+
+    <Button
+        android:id="@+id/gson_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gson测试" />
 </LinearLayout>

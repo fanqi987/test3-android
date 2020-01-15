@@ -111,6 +111,7 @@ public class NetworkActivity extends BaseActivity {
                             }
                             if (connection != null) {
                                 connection.disconnect();
+
                             }
                         }
                     }
